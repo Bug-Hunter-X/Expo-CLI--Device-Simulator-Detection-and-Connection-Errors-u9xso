@@ -1,0 +1,5 @@
+# Expo CLI Device/Simulator Connection Issues
+
+This repository demonstrates a common, yet elusive, bug encountered when using the Expo CLI to develop React Native applications.  The problem centers around the inability of the Expo CLI to properly detect and connect to a device or simulator, preventing successful builds and app launches.
+
+The included `expoBug.js` file shows a sample project setup.  The associated error messages are often generic and provide minimal insight into the root cause.  `expoBugSolution.js` offers troubleshooting steps and potential solutions.  This includes checking device/simulator configurations, network connectivity, and Expo CLI version updates.  Solutions may involve reinstalling Expo CLI, ensuring appropriate device drivers are installed, or restarting the system.
